@@ -69,7 +69,7 @@ class ScrapParallel(object):
 
 if __name__ == "__main__":
 
-    proxies_list = manager.generate_proxies()
+    proxies_list = PROXY_MANAGER.generate_proxies()
     links_to_scrap = []
     indice_arr = json.loads(open('data/indice.json').read())
     for item in indice_arr:

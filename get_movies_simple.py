@@ -18,8 +18,8 @@ from scraper.filmaffinity import Filmaffinity
 from proxy_manager.proxyManager import ProxyManager
 
 
-
-proxies_list = manager.generate_proxies()
+PROXY_MANAGER = ProxyManager()
+proxies_list = PROXY_MANAGER.generate_proxies()
 indice_arr = json.loads(open('data/indice.json').read())
 
 movies_safe = []
