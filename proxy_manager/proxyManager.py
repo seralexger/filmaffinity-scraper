@@ -8,7 +8,6 @@
 #
 #########################################################
 
-import request
 from proxy_manager.parsers.SslProxiesParser import SslProxiesParser
 from proxy_manager.parsers.UsProxyParser import UsProxyParser
 
